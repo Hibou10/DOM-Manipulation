@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Leichter grauer Hintergrund */
+    display: flex;
+    justify-content: center; /* Zentriert den Inhalt horizontal */
+    align-items: center; /* Zentriert den Inhalt vertikal */
+    height: 100vh; /* Vollständige Bildschirmhöhe */
+    background-color: grey;
+}
+
+/* Styling für den Container */
+.container {
+    background-color: rosybrown; /* Weißer Hintergrund */
+    padding: 30px;
+    border-radius: 10px; /* Abgerundete Ecken */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Leichter Schatten */
+    text-align: center; /* Zentriert den Text */
+    max-width: 400px; /* Maximale Breite */
+    width: 90%; /* Reagiert auf kleinere Bildschirme */
+}
+
+/* Styling für die Überschrift */
+#main-heading {
+    color: brown; /* Dunkles Blau */
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Styling für die Liste */
+ul {
+    list-style-type: none; /* Entfernt Aufzählungszeichen */
+    padding: 0;
+}
+
+/* Styling für Listenelemente */
+.list-items {
+    background-color: black; /* Helles Blau für Listenelemente */
+    color: white; /* Weißer Text */
+    padding: 10px;
+    margin: 18px 0; /* Abstand zwischen den Listenelementen */
+    border-radius: 10px; /* Abgerundete Ecken */
+    transition: background-color 0.3s; /* Übergang für Hover-Effekt */
+}
